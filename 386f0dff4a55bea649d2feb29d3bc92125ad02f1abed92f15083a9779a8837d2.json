@@ -1,4 +1,4 @@
-{
+seal = {
     "lookupInfo": "https://focused-snyder-fec658.netlify.com/styles.css",
     "retrievalId": "ri317312689300628c627ddf94a90c52e26d962e60fe6e4edc1e00be6c1b6160526",
     "seal": {
@@ -64,4 +64,4 @@
         }
     }],
     "hasBeenInsertedIntoAllRequestedBlockchains": true
-}
+};
