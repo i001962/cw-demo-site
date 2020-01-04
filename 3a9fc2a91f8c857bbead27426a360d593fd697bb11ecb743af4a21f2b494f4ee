@@ -1,0 +1,56 @@
+{
+  "maxSupportedAPIVersion": 8,
+  "documents": [
+    {
+      "lookupInfo": "glove.png",
+      "retrievalId": "ri31737320b6b4a4d12e414438918c6aee465ecbfa4cce400610fa09688bda5f749",
+      "seal": {
+        "documentInfo": {
+          "lookupInfo": "glove.png",
+          "submittedAt": 1578182066084
+        },
+        "proofs": [
+          {
+            "bundleMethod": "BALANCED_MERKLE_TREE",
+            "operations": [
+              {
+                "blockChainId": "0x0e719237c88ff9f958fef283d4a7869ce0d9e6d30e325e1977a646758b40f6af",
+                "instanceName": "4",
+                "insertedIntoBlockchainAt": 1578182101835,
+                "opcode": "BLOCKCHAIN",
+                "blockchainGeneralName": "Ethereum"
+              },
+              {
+                "docHash": "3a9fc2a91f8c857bbead27426a360d593fd697bb11ecb743af4a21f2b494f4ee",
+                "opcode": "DOC_SHA256"
+              },
+              {
+                "opcode": "ANCHOR_SHA256",
+                "hash": "3a9fc2a91f8c857bbead27426a360d593fd697bb11ecb743af4a21f2b494f4ee"
+              }
+            ]
+          }
+        ],
+        "version": 8,
+        "isComplete": false
+      },
+      "submittedAt": 1578182066084,
+      "hasBeenInsertedIntoAtLeastOneBlockchain": true,
+      "blockchainRegistrations": [
+        {
+          "blockChainId": "0x0e719237c88ff9f958fef283d4a7869ce0d9e6d30e325e1977a646758b40f6af",
+          "insertedIntoBlockchainAt": 1578182101835,
+          "blockChainDesc": {
+            "instanceName": "4",
+            "generalName": "Ethereum"
+          },
+          "status": {
+            "anchorHash": "3a9fc2a91f8c857bbead27426a360d593fd697bb11ecb743af4a21f2b494f4ee"
+          }
+        }
+      ],
+      "hasBeenInsertedIntoAllRequestedBlockchains": false
+    }
+  ],
+  "minSupportedAPIVersion": 1
+}
