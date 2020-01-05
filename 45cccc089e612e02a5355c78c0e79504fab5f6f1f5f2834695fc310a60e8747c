@@ -1,0 +1,60 @@
+{
+  "maxSupportedAPIVersion": 8,
+  "documents": [
+    {
+      "lookupInfo": "glove.png - hmm take 2",
+      "retrievalId": "ri31737348d90d51c84a37d2f16e35c1ba0ce72939cf5c9d95bcd25765bd595e34b",
+      "seal": {
+        "documentInfo": {
+          "lookupInfo": "glove.png - hmm take 2",
+          "submittedAt": 1578182710875
+        },
+        "proofs": [
+          {
+            "bundleMethod": "BALANCED_MERKLE_TREE",
+            "operations": [
+              {
+                "blockChainId": "0x00791f855257c04bd90f68ada195c24308ba36d275623629f903cc52fb1de1cf",
+                "instanceName": "4",
+                "insertedIntoBlockchainAt": 1578182761743,
+                "opcode": "BLOCKCHAIN",
+                "blockchainGeneralName": "Ethereum"
+              },
+              {
+                "docHash": "45cccc089e612e02a5355c78c0e79504fab5f6f1f5f2834695fc310a60e8747c",
+                "opcode": "DOC_SHA256"
+              },
+              {
+                "opcode": "PREPEND_THEN_SHA256",
+                "hash": "9c81d330a82cc58dafdab97093d841f5fa8f92d77eac54d0f1a23b22c2d187a3"
+              },
+              {
+                "opcode": "ANCHOR_SHA256",
+                "hash": "14bd48465863883e45f469bcc01115cd6936e816158734ff47ce2b6317de4793"
+              }
+            ]
+          }
+        ],
+        "version": 8,
+        "isComplete": false
+      },
+      "submittedAt": 1578182710875,
+      "hasBeenInsertedIntoAtLeastOneBlockchain": true,
+      "blockchainRegistrations": [
+        {
+          "blockChainId": "0x00791f855257c04bd90f68ada195c24308ba36d275623629f903cc52fb1de1cf",
+          "insertedIntoBlockchainAt": 1578182761743,
+          "blockChainDesc": {
+            "instanceName": "4",
+            "generalName": "Ethereum"
+          },
+          "status": {
+            "anchorHash": "14bd48465863883e45f469bcc01115cd6936e816158734ff47ce2b6317de4793"
+          }
+        }
+      ],
+      "hasBeenInsertedIntoAllRequestedBlockchains": false
+    }
+  ],
+  "minSupportedAPIVersion": 1
+}
