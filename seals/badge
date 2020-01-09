@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
-  "label": "Seal",
-  "message": "Verified",
-  "color": "green"
+  "style": "plastic",
+  "label": "Verified",
+  "labelColor: "green",
+  "message": "Seal",
+  "color": "lightGray"
 }
