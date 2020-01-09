@@ -3,6 +3,5 @@
   "style": "plastic",
   "label": "Verified",
   "labelColor: "green",
-  "message": "Seal",
-  "color": "lightGray"
+  "message": "Seal"
 }
